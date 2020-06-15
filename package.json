@@ -1,0 +1,30 @@
+{
+  "name": "jest-config-cyberbiont",
+  "version": "0.1.0",
+  "description": "jest configuration files",
+  "main": "jest.config.js",
+  "types": "test.setup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yaroslav larin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.11",
+    "chai": "^4.2.0"
+  },
+  "peerDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "jest-html-reporters": "^1.2.1",
+    "jest-stare": "^2.0.1",
+    "omnimock": "^0.8.1",
+    "ts-jest": "^26.1.0",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-chai-expect": "^2.1.0",
+    "eslint-plugin-chai-friendly": "^0.6.0"
+  }
+}

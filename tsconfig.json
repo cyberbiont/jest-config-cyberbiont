@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    // https://github.com/microsoft/TypeScript/issues/29002
+    // https://github.com/microsoft/TypeScript/issues/38556
+    // "module": "none",
+    "declaration": true, // A composite project must create d.ts files for other projects to reference
+    "declarationMap": true, // Enable use of editor features like 'Go to Definition' and Rename to transparently navigate and edit code across project boundaries in supported editors.
+    "composite": true,
+    "outDir": ".",
+    "rootDir": "."
+  },
+  "files": ["test.setup.ts"]
+}
